@@ -10,10 +10,10 @@ function config($key = '')
     $config = [
         'name' => 'Simple PHP Website',
         'nav_menu' => [
-            '' => 'Home',
-            'content/about-us.php' => 'About Us',
-            'content/products.php' => 'Products',
-            'content/contact.php' => 'Contact',
+            'Project1/website' => 'Home',
+            'Project1/website/content/about-us.php' => 'About Us',
+            'Project1/website/content/products.php' => 'Products',
+            'Project1/website/content/contact.php' => 'Contact',
         ],
         'template_path' => 'template',
         'content_path' => 'content',
